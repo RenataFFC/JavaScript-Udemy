@@ -1,0 +1,37 @@
+function calcularNumeroDeEntradas(placa){
+    let total = 0;
+    for(var i = 0; i < placas.length;i++){
+        if (placas.length[i]== placas.length[i]){
+           total ++
+        }
+        return total
+    }
+ }
+  
+ function calcularValorDevido(placa){
+    let valor = 0;
+   if(placas.length > 20){
+      valor = ((total - 20) * 5) + 200
+   }else {
+      valor = (total * 10) 
+ }
+ }
+ /* Esse array é utilizado dentro das funções. Cada placa neste array representa uma entrada do respectivo veículo no estacionamento. Não é necessário alterar esse array. */
+ var placas = [
+     'RXB-2525', 'AKX-3333', 'ORO-7142', 'RXB-2525',
+     'AKX-3333', 'ORO-7142', 'AKX-3333', 'RXB-2525',
+     'AKX-3333', 'AKX-3333', 'RXB-2525', 'AKX-3333',
+     'RXB-2525', 'AKX-3333', 'ORO-7142', 'AKX-3333',
+     'AKX-3333', 'RXB-2525', 'AKX-3333', 'ORO-7142',
+     'ORO-7142', 'AKX-3333', 'AKX-3333', 'RXB-2525',
+     'AKX-3333', 'AKX-3333', 'RXB-2525', 'AKX-3333',
+     'AKX-3333', 'RXB-2525', 'AKX-3333', 'ORO-7142',
+     'ORO-7142', 'AKX-3333', 'ORO-7142', 'ORO-7142',
+     'ORO-7142', 'RXB-2525', 'AKX-3333', 'AKX-3333',
+     'ORO-7142', 'ORO-7142', 'AKX-3333', 'RXB-2525',
+     'AKX-3333', 'AKX-3333', 'RXB-2525', 'AKX-3333',
+     'RXB-2525', 'AKX-3333', 'ORO-7142', 'AKX-3333',
+     'AKX-3333', 'RXB-2525', 'AKX-3333', 'ORO-7142',
+     'ORO-7142', 'AKX-3333', 'AKX-3333', 'RXB-2525',
+     'AKX-3333', 'AKX-3333', 'RXB-2525', 'AKX-3333',
+     'AKX-3333', 'RXB-2525']

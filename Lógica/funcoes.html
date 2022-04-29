@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+</head>
+<body>
+    <h1>Funções</h1>
+    <script>
+
+        //declação de função
+     function ola (){        
+    document.write ("olá mundo")
+
+    }
+    ola()
+
+    //expressão de função
+
+    const ola2 = function(){
+        console.log("ola mundo de function expression")
+    }
+     ola2()    
+     
+     //arrow functions
+     const ola3 = () => {
+         console.log("ola mundo de arrow functions")
+     }
+     ola3()
+
+     //retorno de valores
+     function  obtemDiaSemana(){
+         return new Date().getDay()
+     }
+     obtemDiaSemana()
+     console.log(obtemDiaSemana())
+
+     //receber valores
+     function somar(n1 = 0,n2 = 0){
+        // let _n1 = n1|| 0
+       //  let _n2 = n2|| 0
+        return n1 + n2
+     }
+    let  soma = somar(3,5)
+    console.log(soma)
+    console.log(somar(10))
+    alert(somar())
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
